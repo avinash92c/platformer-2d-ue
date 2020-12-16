@@ -1,0 +1,1621 @@
+﻿Log file open, 12/14/20 12:46:22
+LogInit: Display: Running engine for game: Shooter2dTest
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.270719
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz, GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: G:/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.12.14-07.16.22:848][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.12.14-07.16.22:848][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.12.14-07.16.22:848][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Engine.ini]
+[2020.12.14-07.16.22:848][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.12.14-07.16.22:848][  0]LogConfig: Setting CVar [[r.MobileHDR:0]]
+[2020.12.14-07.16.22:848][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Engine.ini]
+[2020.12.14-07.16.22:848][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Engine.ini]
+[2020.12.14-07.16.22:848][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.12.14-07.16.22:848][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Engine.ini]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.12.14-07.16.22:849][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Engine.ini]
+[2020.12.14-07.16.22:849][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Engine.ini]
+[2020.12.14-07.16.22:851][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:851][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.14-07.16.22:851][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.14-07.16.22:851][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:851][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.14-07.16.22:851][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:851][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.14-07.16.22:851][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.14-07.16.22:851][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.14-07.16.22:851][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.14-07.16.22:851][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.14-07.16.22:851][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.14-07.16.22:851][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.14-07.16.22:851][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.14-07.16.22:851][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.14-07.16.22:851][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.14-07.16.22:851][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.14-07.16.22:852][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.14-07.16.22:853][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.14-07.16.22:853][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.12.14-07.16.22:853][  0]LogHAL: Display: Platform has ~ 16 GB [17136685056 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.12.14-07.16.22:853][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.14-07.16.22:853][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.14-07.16.22:853][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Scalability.ini]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.14-07.16.22:854][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.12.14-07.16.22:855][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.12.14-07.16.22:855][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.12.14-07.16.22:855][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.12.14-07.16.22:855][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Config/Windows/Engine.ini]
+[2020.12.14-07.16.22:855][  0]LogInit: Computer: DESKTOP-LPSHEQT
+[2020.12.14-07.16.22:855][  0]LogInit: User: Home
+[2020.12.14-07.16.22:855][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.12.14-07.16.22:855][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.14-07.16.22:855][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.12.14-07.16.22:855][  0]LogMemory: Platform Memory Stats for Windows
+[2020.12.14-07.16.22:855][  0]LogMemory: Process Physical Memory: 114.23 MB used, 114.23 MB peak
+[2020.12.14-07.16.22:855][  0]LogMemory: Process Virtual Memory: 103.38 MB used, 103.38 MB peak
+[2020.12.14-07.16.22:855][  0]LogMemory: Physical Memory: 4546.18 MB used,  11796.64 MB free, 16342.82 MB total
+[2020.12.14-07.16.22:855][  0]LogMemory: Virtual Memory: 5135.01 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.12.14-07.16.22:862][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.12.14-07.16.22:900][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.12.14-07.16.22:901][  0]LogInit: Using OS detected language (en-US).
+[2020.12.14-07.16.22:901][  0]LogInit: Using OS detected locale (en-IN).
+[2020.12.14-07.16.22:903][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.12.14-07.16.23:106][  0]LogInit: Setting process to per monitor DPI aware
+[2020.12.14-07.16.23:135][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.12.14-07.16.23:135][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.12.14-07.16.23:363][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.14-07.16.23:363][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.14-07.16.23:363][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.14-07.16.23:363][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.14-07.16.23:431][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.12.14-07.16.23:431][  0]LogD3D11RHI:       4018/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.12.14-07.16.23:434][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.14-07.16.23:434][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.14-07.16.23:434][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.14-07.16.23:440][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.14-07.16.23:441][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2020.12.14-07.16.23:441][  0]LogWindows: EnumDisplayDevices:
+[2020.12.14-07.16.23:441][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2020.12.14-07.16.23:441][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.12.14-07.16.23:441][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.12.14-07.16.23:442][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.12.14-07.16.23:442][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.12.14-07.16.23:442][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.12.14-07.16.23:442][  0]LogD3D11RHI:   Driver Version: 436.15 (internal:26.21.14.3615, unified:436.15)
+[2020.12.14-07.16.23:442][  0]LogD3D11RHI:      Driver Date: 8-24-2019
+[2020.12.14-07.16.23:442][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.12.14-07.16.23:482][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.12.14-07.16.23:482][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.14-07.16.23:482][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.12.14-07.16.23:556][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.12.14-07.16.23:857][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.12.14-07.16.23:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.12.14-07.16.23:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.12.14-07.16.23:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.12.14-07.16.23:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.12.14-07.16.23:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.12.14-07.16.23:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.12.14-07.16.23:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.12.14-07.16.23:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.12.14-07.16.23:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.12.14-07.16.23:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.12.14-07.16.23:903][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.12.14-07.16.23:903][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.12.14-07.16.23:914][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.12.14-07.16.23:924][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.12.14-07.16.23:934][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.12.14-07.16.23:944][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.12.14-07.16.23:954][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.12.14-07.16.23:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.12.14-07.16.23:973][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.12.14-07.16.24:000][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.12.14-07.16.24:000][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.12.14-07.16.24:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.12.14-07.16.24:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.12.14-07.16.24:027][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.12.14-07.16.24:038][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.12.14-07.16.24:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.12.14-07.16.24:057][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.12.14-07.16.24:057][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.12.14-07.16.24:066][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.12.14-07.16.24:129][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Intermediate/Shaders/WorkingDirectory/13364/).
+[2020.12.14-07.16.24:129][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Home/AppData/Local/Temp/UnrealShaderWorkingDir/052CCB25446099B501DFB79D92E4553D/'.
+[2020.12.14-07.16.24:129][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.12.14-07.16.24:129][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.12.14-07.16.24:130][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.12.14-07.16.24:952][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.12.14-07.16.25:011][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/Home/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.14-07.16.25:011][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Home/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.12.14-07.16.25:011][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.12.14-07.16.25:011][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.12.14-07.16.25:011][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.14-07.16.25:011][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.12.14-07.16.25:023][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.14-07.16.25:023][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.14-07.16.25:023][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.12.14-07.16.25:024][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Home/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.12.14-07.16.25:024][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.12.14-07.16.25:024][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.12.14-07.16.25:080][  0]LogSlate: Using FreeType 2.10.0
+[2020.12.14-07.16.25:081][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.12.14-07.16.25:112][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2020.12.14-07.16.25:357][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.14-07.16.25:478][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.12.14-07.16.25:478][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.12.14-07.16.25:478][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.12.14-07.16.25:478][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.12.14-07.16.25:478][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.12.14-07.16.25:493][  0]LogNetVersion: Shooter2dTest 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3771655007)
+[2020.12.14-07.16.25:995][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002533184DBC0), frame # 0
+[2020.12.14-07.16.25:995][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025331650900), frame # 0
+[2020.12.14-07.16.25:996][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025331665E00), frame # 0
+[2020.12.14-07.16.26:092][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.089138 seconds
+[2020.12.14-07.16.26:097][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.12.14-07.16.26:097][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.12.14-07.16.26:097][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.12.14-07.16.26:456][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.12.14-07.16.26:460][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.12.14-07.16.26:542][  0]SourceControl: Source control is disabled
+[2020.12.14-07.16.26:542][  0]SourceControl: Source control is disabled
+[2020.12.14-07.16.26:545][  0]SourceControl: Source control is disabled
+[2020.12.14-07.16.26:548][  0]SourceControl: Source control is disabled
+[2020.12.14-07.16.26:556][  0]SourceControl: Source control is disabled
+[2020.12.14-07.16.26:810][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.12.14-07.16.26:832][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.14-07.16.26:832][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.14-07.16.26:883][  0]LogOcInput: OculusInput pre-init called
+[2020.12.14-07.16.26:893][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.12.14-07.16.26:894][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.12.14-07.16.26:955][  0]LogEngine: Initializing Engine...
+[2020.12.14-07.16.26:957][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.14-07.16.26:957][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.12.14-07.16.26:958][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.12.14-07.16.27:091][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.12.14-07.16.27:104][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.12.14-07.16.27:104][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025335E13C00), frame # 0
+[2020.12.14-07.16.27:104][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025335EA5F80), frame # 0
+[2020.12.14-07.16.27:112][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-07.16.27:112][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-07.16.27:112][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-07.16.27:112][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-07.16.27:112][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-07.16.27:112][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-07.16.27:112][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-07.16.27:112][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-07.16.27:112][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-07.16.27:112][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-07.16.27:126][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-07.16.27:126][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-07.16.27:174][  0]LogAudioMixer: Display: Using Audio Device LG FULL HD (NVIDIA High Definition Audio)
+[2020.12.14-07.16.27:178][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-07.16.27:180][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-07.16.27:180][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-07.16.27:181][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-07.16.27:182][  0]LogInit: FAudioDevice initialized.
+[2020.12.14-07.16.27:183][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.12.14-07.16.27:318][  0]LogDerivedDataCache: Saved boot cache 0.14s 76MB C:/Users/Home/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.14-07.16.27:318][  0]LogInit: Texture streaming: Enabled
+[2020.12.14-07.16.27:336][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.12.14-07.16.27:336][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.12.14-07.16.27:343][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.12.14-07.16.27:401][  0]LogInit: Transaction tracking system initialized
+[2020.12.14-07.16.27:424][  0]BlueprintLog: New page: Editor Load
+[2020.12.14-07.16.27:497][  0]LocalizationService: Localization service is disabled
+[2020.12.14-07.16.27:662][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.12.14-07.16.27:662][  0]LogCook: Display: Mobile HDR setting 0
+[2020.12.14-07.16.27:802][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/' took 0.02s
+[2020.12.14-07.16.28:086][  0]SourceControl: Source control is disabled
+[2020.12.14-07.16.28:086][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.576
+[2020.12.14-07.16.28:086][  0]Cmd: MAP LOAD FILE="C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Levels/Level0.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.14-07.16.28:087][  0]LightingResults: New page: Lighting Build
+[2020.12.14-07.16.28:087][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.16.28:087][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.16.28:088][  0]MapCheck: New page: Map Check
+[2020.12.14-07.16.28:088][  0]LightingResults: New page: Lighting Build
+[2020.12.14-07.16.28:096][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025335E13C00), frame # 0
+[2020.12.14-07.16.28:096][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025335EA5F80), frame # 0
+[2020.12.14-07.16.28:097][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.12.14-07.16.30:436][  0]LogAIModule: Creating AISystem for world Level0
+[2020.12.14-07.16.30:436][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000253256F0200), frame # 0
+[2020.12.14-07.16.30:436][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002532567FB00), frame # 0
+[2020.12.14-07.16.30:445][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.14-07.16.30:458][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.12.14-07.16.30:458][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.14-07.16.30:459][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.195ms to complete.
+[2020.12.14-07.16.30:459][  0]LogFileHelpers: Loading map 'Level0' took 2.373
+[2020.12.14-07.16.30:460][  0]LogUnrealEdMisc: Total Editor Startup Time, took 9.951
+[2020.12.14-07.16.30:594][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.16.30:601][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.16.30:608][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.16.30:615][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.16.30:624][  0]LogCollectionManager: Loaded 0 collections in 0.001017 seconds
+[2020.12.14-07.16.30:638][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Collections/' took 0.00s
+[2020.12.14-07.16.30:639][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/Developers/Home/Collections/' took 0.00s
+[2020.12.14-07.16.30:639][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/Collections/' took 0.00s
+[2020.12.14-07.16.30:639][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3427 classes and 821 folders.
+[2020.12.14-07.16.30:642][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.12.14-07.16.31:433][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.12.14-07.16.31:434][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.12.14-07.16.31:484][  0]LogSlate: Took 0.000382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.12.14-07.16.31:486][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.12.14-07.16.31:544][  0]LogSlate: Took 0.053833 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.12.14-07.16.31:691][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.12.14-07.16.31:791][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.12.14-07.16.31:791][  0]LogLoad: (Engine Initialization) Total time: 11.28 seconds
+[2020.12.14-07.16.31:791][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.12.14-07.16.31:829][  0]LogAssetRegistry: Asset discovery search completed in 6.7177 seconds
+[2020.12.14-07.16.31:833][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.12.14-07.16.31:834][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.12.14-07.16.31:952][  0]LogSlate: Took 0.035744 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.14-07.16.44:570][498]LogEditorViewport: Clicking on Actor (LMB): VoidFloor_C (VoidFloor)
+[2020.12.14-07.16.45:289][580]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_C (BaseFloor2)
+[2020.12.14-07.16.46:090][673]LogEditorViewport: Clicking on Actor (LMB): Enemy-Runner_C (Enemy-Runner2)
+[2020.12.14-07.16.47:722][857]Cmd: DELETE
+[2020.12.14-07.16.47:722][857]Cmd: ACTOR DELETE
+[2020.12.14-07.16.47:726][857]LogEditorActor: Deleted Actor: Enemy-Runner_C
+[2020.12.14-07.16.47:735][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.12.14-07.16.47:737][857]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2020.12.14-07.16.48:456][943]LogEditorViewport: Clicking on Actor (LMB): Enemy-Runner_C (Enemy-Runner3)
+[2020.12.14-07.16.48:585][952]Cmd: DELETE
+[2020.12.14-07.16.48:585][952]Cmd: ACTOR DELETE
+[2020.12.14-07.16.48:587][952]LogEditorActor: Deleted Actor: Enemy-Runner_C
+[2020.12.14-07.16.48:596][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2020.12.14-07.16.48:598][952]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2020.12.14-07.16.49:053][  6]LogEditorViewport: Clicking on Actor (LMB): Enemy-Runner_C (Enemy-Runner4)
+[2020.12.14-07.16.49:202][ 18]Cmd: DELETE
+[2020.12.14-07.16.49:202][ 18]Cmd: ACTOR DELETE
+[2020.12.14-07.16.49:204][ 18]LogEditorActor: Deleted Actor: Enemy-Runner_C
+[2020.12.14-07.16.49:213][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.12.14-07.16.49:214][ 18]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2020.12.14-07.16.49:519][ 54]LogEditorViewport: Clicking on Actor (LMB): Enemy-Runner_C (Enemy-Runner)
+[2020.12.14-07.16.49:718][ 72]Cmd: DELETE
+[2020.12.14-07.16.49:718][ 72]Cmd: ACTOR DELETE
+[2020.12.14-07.16.49:719][ 72]LogEditorActor: Deleted Actor: Enemy-Runner_C
+[2020.12.14-07.16.49:729][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.12.14-07.16.49:730][ 72]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2020.12.14-07.16.52:110][349]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.14-07.16.52:125][349]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/EnemySpawn.EnemySpawn
+[2020.12.14-07.16.52:686][349]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.12.14-07.16.53:867][349]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.12.14-07.16.53:997][350]LogSlate: Took 0.011447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.12.14-07.18.46:277][212]BlueprintLog: New page: Compile EnemySpawn
+[2020.12.14-07.18.46:316][212]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.12.14-07.18.46:373][212]LogSlate: Took 0.028247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.12.14-07.18.47:512][337]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2020.12.14-07.18.57:618][435]BlueprintLog: New page: Compile EnemySpawn
+[2020.12.14-07.18.57:654][435]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.12.14-07.18.58:057][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/EnemySpawn" FILE="C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Blueprints/EnemySpawn.uasset" SILENT=true
+[2020.12.14-07.18.58:243][470]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/EnemySpawn5B69E89C4E3D505046D1B89BF0920132.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Blueprints/EnemySpawn.uasset'
+[2020.12.14-07.18.58:264][470]AssetCheck: New page: Asset Save: EnemySpawn
+[2020.12.14-07.18.58:264][470]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/EnemySpawn.EnemySpawn
+[2020.12.14-07.19.01:209][761]LogSlate: Window 'EnemySpawn' being destroyed
+[2020.12.14-07.19.01:213][761]LogSlate: Window 'EnemySpawn' being destroyed
+[2020.12.14-07.19.01:227][761]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.19.01:228][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.19.10:482][838]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.12.14-07.19.10:533][838]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Level086B337264975722E60C333AA049DBD13.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Levels/Level0.umap'
+[2020.12.14-07.19.10:574][838]AssetCheck: New page: Asset Save: Level0
+[2020.12.14-07.19.10:574][838]LogContentValidation: Display: Validating World /Game/2DSideScrollerBP/Levels/Level0.Level0
+[2020.12.14-07.19.14:908][354]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.12.14-07.19.14:923][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.14-07.19.14:924][354]PIE: New page: PIE session: Level0 (14-Dec-2020, 6:19:14 pm)
+[2020.12.14-07.19.14:925][354]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.12.14-07.19.14:926][354]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.12.14-07.19.14:926][354]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.19.14:929][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003048s)
+[2020.12.14-07.19.14:930][354]LogAIModule: Creating AISystem for world Level0
+[2020.12.14-07.19.14:930][354]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025341569800), frame # 17354
+[2020.12.14-07.19.14:930][354]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002536642C7C0), frame # 17354
+[2020.12.14-07.19.14:930][354]LogPlayLevel: PIE: World Init took: (0.001164s)
+[2020.12.14-07.19.14:931][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Levels/Level0.Level0 to /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 (0.004366s)
+[2020.12.14-07.19.14:950][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.12.14-07.19.14:953][354]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-07.19.14:953][354]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-07.19.14:953][354]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-07.19.14:953][354]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-07.19.14:953][354]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-07.19.14:953][354]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-07.19.14:953][354]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-07.19.14:953][354]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-07.19.14:953][354]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-07.19.14:953][354]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-07.19.14:960][354]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-07.19.14:960][354]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-07.19.14:981][354]LogAudioMixer: Display: Using Audio Device LG FULL HD (NVIDIA High Definition Audio)
+[2020.12.14-07.19.14:981][354]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-07.19.14:981][354]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-07.19.14:981][354]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-07.19.14:982][354]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-07.19.14:996][354]LogInit: FAudioDevice initialized.
+[2020.12.14-07.19.15:054][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.19.15:058][354]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.12.14-07.19.15:075][354]LogWorld: Bringing World /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 up for play (max tick rate 0) at 2020.12.14-12.49.15
+[2020.12.14-07.19.15:168][354]LogWorld: Bringing up level for play took: 0.094280
+[2020.12.14-07.19.15:168][354]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.12.14-07.19.15:183][354]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.12.14-07.19.15:185][354]LogBlueprintUserMessages: [Enemy_5] Hello
+[2020.12.14-07.19.15:189][354]PIE: Server logged in
+[2020.12.14-07.19.15:190][354]PIE: Play in editor total start time 0.27 seconds.
+[2020.12.14-07.19.15:217][354]LogAudio: Warning: Detected orphaned looping sound 'BackgroundTrack'.
+[2020.12.14-07.19.15:290][355]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.12.14-07.19.20:802][972]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] Hello
+[2020.12.14-07.19.20:814][973]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] X=824.986 Y=36.569 Z=218.275
+[2020.12.14-07.19.20:999][995]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] Player Hit
+[2020.12.14-07.19.20:999][995]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] 0
+[2020.12.14-07.19.21:101][  7]LogBlueprintUserMessages: [Enemy_5] Dead Enemy
+[2020.12.14-07.19.22:082][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.19.22:082][121]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.19.22:082][121]LogSlate: Window 'Shooter2dTest Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.12.14-07.19.22:089][121]LogWorld: UWorld::CleanupWorld for Level0, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.19.22:089][121]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.19.22:101][121]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.14-07.19.22:105][121]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.19.22:158][121]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002536642C7C0), frame # 18121
+[2020.12.14-07.19.22:158][121]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025341569800), frame # 18121
+[2020.12.14-07.19.22:189][121]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.12.14-07.19.22:217][122]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.12.14-07.19.23:548][280]LogEditorViewport: Clicking Background
+[2020.12.14-07.19.27:366][725]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2020.12.14-07.19.32:503][325]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.12.14-07.19.34:955][565]LogEditorViewport: Clicking on Actor (LMB): EnemySpawn_C (EnemySpawn)
+[2020.12.14-07.19.36:407][736]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2020.12.14-07.19.50:987][484]LogEditorViewport: Clicking on Actor (LMB): EnemySpawn_C (EnemySpawn)
+[2020.12.14-07.19.57:320][222]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.12.14-07.19.57:370][222]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Level045C4D46B4CB4CA381A8D979998401BB1.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Levels/Level0.umap'
+[2020.12.14-07.19.57:409][222]AssetCheck: New page: Asset Save: Level0
+[2020.12.14-07.19.57:409][222]LogContentValidation: Display: Validating World /Game/2DSideScrollerBP/Levels/Level0.Level0
+[2020.12.14-07.20.00:644][590]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.14-07.20.00:644][590]PIE: New page: SIE session: Level0 (14-Dec-2020, 6:20:00 pm)
+[2020.12.14-07.20.00:644][590]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.20.00:647][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003046s)
+[2020.12.14-07.20.00:648][590]LogAIModule: Creating AISystem for world Level0
+[2020.12.14-07.20.00:648][590]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025369A87800), frame # 21590
+[2020.12.14-07.20.00:648][590]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002536A630540), frame # 21590
+[2020.12.14-07.20.00:648][590]LogPlayLevel: PIE: World Init took: (0.001219s)
+[2020.12.14-07.20.00:648][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Levels/Level0.Level0 to /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 (0.004387s)
+[2020.12.14-07.20.00:665][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.12.14-07.20.00:668][590]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-07.20.00:668][590]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-07.20.00:668][590]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-07.20.00:668][590]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-07.20.00:668][590]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-07.20.00:668][590]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-07.20.00:668][590]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-07.20.00:668][590]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-07.20.00:668][590]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-07.20.00:668][590]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-07.20.00:675][590]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-07.20.00:675][590]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-07.20.00:694][590]LogAudioMixer: Display: Using Audio Device LG FULL HD (NVIDIA High Definition Audio)
+[2020.12.14-07.20.00:695][590]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-07.20.00:695][590]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-07.20.00:695][590]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-07.20.00:695][590]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-07.20.00:709][590]LogInit: FAudioDevice initialized.
+[2020.12.14-07.20.00:719][590]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.12.14-07.20.00:720][590]LogWorld: Bringing World /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 up for play (max tick rate 0) at 2020.12.14-12.50.00
+[2020.12.14-07.20.00:721][590]LogWorld: Bringing up level for play took: 0.000960
+[2020.12.14-07.20.00:721][590]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.12.14-07.20.00:723][590]LogBlueprintUserMessages: [Enemy_5] Hello
+[2020.12.14-07.20.00:723][590]PIE: Server logged in
+[2020.12.14-07.20.00:724][590]PIE: Play in editor total start time 0.083 seconds.
+[2020.12.14-07.20.00:726][590]LogAudio: Warning: Detected orphaned looping sound 'BackgroundTrack'.
+[2020.12.14-07.20.05:640][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.20.05:640][151]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.20.05:641][151]LogWorld: UWorld::CleanupWorld for Level0, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.20.05:641][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.20.05:652][151]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.14-07.20.05:654][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.20.05:670][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.20.05:689][151]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002536A630540), frame # 22151
+[2020.12.14-07.20.05:689][151]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025369A87800), frame # 22151
+[2020.12.14-07.20.05:691][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.12.14-07.20.05:716][152]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.12.14-07.20.06:541][249]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_C (BaseFloor2)
+[2020.12.14-07.20.07:301][337]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_C (BaseFloor2)
+[2020.12.14-07.20.08:119][434]LogEditorViewport: Clicking Background
+[2020.12.14-07.20.09:465][588]LogTemp: Repeating last play command: Simulate
+[2020.12.14-07.20.09:480][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.14-07.20.09:480][588]PIE: New page: SIE session: Level0 (14-Dec-2020, 6:20:09 pm)
+[2020.12.14-07.20.09:480][588]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.20.09:483][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002691s)
+[2020.12.14-07.20.09:483][588]LogAIModule: Creating AISystem for world Level0
+[2020.12.14-07.20.09:483][588]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025356F7F200), frame # 22588
+[2020.12.14-07.20.09:483][588]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002536AB225C0), frame # 22588
+[2020.12.14-07.20.09:484][588]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2020.12.14-07.20.09:484][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Levels/Level0.Level0 to /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 (0.003855s)
+[2020.12.14-07.20.09:501][588]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.12.14-07.20.09:503][588]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-07.20.09:503][588]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-07.20.09:503][588]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-07.20.09:503][588]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-07.20.09:503][588]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-07.20.09:503][588]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-07.20.09:503][588]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-07.20.09:503][588]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-07.20.09:504][588]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-07.20.09:504][588]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-07.20.09:511][588]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-07.20.09:511][588]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-07.20.09:530][588]LogAudioMixer: Display: Using Audio Device LG FULL HD (NVIDIA High Definition Audio)
+[2020.12.14-07.20.09:530][588]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-07.20.09:530][588]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-07.20.09:530][588]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-07.20.09:531][588]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-07.20.09:544][588]LogInit: FAudioDevice initialized.
+[2020.12.14-07.20.09:555][588]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.12.14-07.20.09:556][588]LogWorld: Bringing World /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 up for play (max tick rate 0) at 2020.12.14-12.50.09
+[2020.12.14-07.20.09:557][588]LogWorld: Bringing up level for play took: 0.000939
+[2020.12.14-07.20.09:557][588]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.12.14-07.20.09:559][588]LogBlueprintUserMessages: [Enemy_5] Hello
+[2020.12.14-07.20.09:559][588]PIE: Server logged in
+[2020.12.14-07.20.09:560][588]PIE: Play in editor total start time 0.084 seconds.
+[2020.12.14-07.20.09:562][588]LogAudio: Warning: Detected orphaned looping sound 'BackgroundTrack'.
+[2020.12.14-07.20.11:811][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.20.11:811][851]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.20.11:811][851]LogWorld: UWorld::CleanupWorld for Level0, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.20.11:811][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.20.11:823][851]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.14-07.20.11:825][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.20.11:841][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.20.11:862][851]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002536AB225C0), frame # 22851
+[2020.12.14-07.20.11:862][851]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025356F7F200), frame # 22851
+[2020.12.14-07.20.11:864][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.12.14-07.20.11:888][852]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.12.14-07.20.14:274][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.14-07.20.14:274][130]PIE: New page: PIE session: Level0 (14-Dec-2020, 6:20:14 pm)
+[2020.12.14-07.20.14:274][130]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.20.14:277][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003300s)
+[2020.12.14-07.20.14:278][130]LogAIModule: Creating AISystem for world Level0
+[2020.12.14-07.20.14:278][130]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025366758800), frame # 23130
+[2020.12.14-07.20.14:278][130]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002536AB225C0), frame # 23130
+[2020.12.14-07.20.14:279][130]LogPlayLevel: PIE: World Init took: (0.001298s)
+[2020.12.14-07.20.14:279][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Levels/Level0.Level0 to /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 (0.004742s)
+[2020.12.14-07.20.14:296][130]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.12.14-07.20.14:297][130]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-07.20.14:297][130]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-07.20.14:297][130]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-07.20.14:297][130]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-07.20.14:297][130]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-07.20.14:297][130]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-07.20.14:297][130]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-07.20.14:297][130]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-07.20.14:298][130]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-07.20.14:298][130]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-07.20.14:303][130]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-07.20.14:303][130]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-07.20.14:321][130]LogAudioMixer: Display: Using Audio Device LG FULL HD (NVIDIA High Definition Audio)
+[2020.12.14-07.20.14:322][130]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-07.20.14:322][130]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-07.20.14:322][130]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-07.20.14:322][130]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-07.20.14:336][130]LogInit: FAudioDevice initialized.
+[2020.12.14-07.20.14:368][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.20.14:368][130]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.12.14-07.20.14:369][130]LogWorld: Bringing World /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 up for play (max tick rate 0) at 2020.12.14-12.50.14
+[2020.12.14-07.20.14:369][130]LogWorld: Bringing up level for play took: 0.000980
+[2020.12.14-07.20.14:370][130]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.12.14-07.20.14:372][130]LogBlueprintUserMessages: [Enemy_5] Hello
+[2020.12.14-07.20.14:375][130]PIE: Server logged in
+[2020.12.14-07.20.14:376][130]PIE: Play in editor total start time 0.105 seconds.
+[2020.12.14-07.20.14:381][130]LogAudio: Warning: Detected orphaned looping sound 'BackgroundTrack'.
+[2020.12.14-07.20.16:914][431]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] Hello
+[2020.12.14-07.20.17:048][447]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] Hello
+[2020.12.14-07.20.17:070][447]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] Hello
+[2020.12.14-07.20.17:494][498]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] X=4305.444 Y=36.569 Z=218.275
+[2020.12.14-07.20.24:790][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.20.24:790][370]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.20.24:791][370]LogSlate: Window 'Shooter2dTest Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.12.14-07.20.24:793][370]LogWorld: UWorld::CleanupWorld for Level0, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.20.24:794][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.20.24:804][370]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.14-07.20.24:807][370]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.20.24:844][370]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002536AB225C0), frame # 24370
+[2020.12.14-07.20.24:844][370]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025366758800), frame # 24370
+[2020.12.14-07.20.24:846][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.12.14-07.20.24:870][371]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.12.14-07.20.27:969][737]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/Enemy-Runner.Enemy-Runner
+[2020.12.14-07.20.34:593][309]LogSlate: Window 'Enemy-Runner' being destroyed
+[2020.12.14-07.20.34:600][309]LogSlate: Window 'Enemy-Runner' being destroyed
+[2020.12.14-07.20.34:604][309]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.20.34:604][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.20.35:697][430]LogEditorViewport: Clicking Background
+[2020.12.14-07.20.36:333][506]LogEditorViewport: Clicking on Actor (LMB): EnemySpawn_C (EnemySpawn)
+[2020.12.14-07.20.36:441][516]LogEditorViewport: Clicking on Component (LMB): ArrowComponent (SpawnArrow)
+[2020.12.14-07.20.37:406][630]LogEditorViewport: Clicking on Component (LMB): ArrowComponent (SpawnArrow)
+[2020.12.14-07.20.37:507][641]LogEditorViewport: Clicking on Actor (double click): EnemySpawn_C (EnemySpawn)
+[2020.12.14-07.20.39:816][911]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/Enemy-Runner.Enemy-Runner
+[2020.12.14-07.20.45:677][350]LogSlate: Window 'Enemy-Runner' being destroyed
+[2020.12.14-07.20.45:684][350]LogSlate: Window 'Enemy-Runner' being destroyed
+[2020.12.14-07.20.45:684][350]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.20.45:684][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.20.46:966][491]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/EnemySpawn.EnemySpawn
+[2020.12.14-07.31.36:978][513]BlueprintLog: New page: Compile EnemySpawn
+[2020.12.14-07.31.37:030][513]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.12.14-07.32.40:917][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/EnemySpawn" FILE="C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Blueprints/EnemySpawn.uasset" SILENT=true
+[2020.12.14-07.32.40:959][291]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/EnemySpawn6D3ED23143E0A15D420A698F992C2E52.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Blueprints/EnemySpawn.uasset'
+[2020.12.14-07.32.40:975][291]AssetCheck: New page: Asset Save: EnemySpawn
+[2020.12.14-07.32.40:975][291]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/EnemySpawn.EnemySpawn
+[2020.12.14-07.32.43:901][597]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/Enemy-Runner.Enemy-Runner
+[2020.12.14-07.33.16:143][620]LogSlate: Window 'Enemy-Runner' being destroyed
+[2020.12.14-07.33.16:151][620]LogSlate: Window 'Enemy-Runner' being destroyed
+[2020.12.14-07.33.16:151][620]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.33.16:151][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.33.16:220][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.12.14-07.33.16:220][620]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.33.16:220][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.33.16:841][686]LogEditorViewport: Clicking on Actor (LMB): VoidFloor_C (VoidFloor)
+[2020.12.14-07.33.17:764][792]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.12.14-07.33.17:779][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.14-07.33.17:779][792]PIE: New page: PIE session: Level0 (14-Dec-2020, 6:33:17 pm)
+[2020.12.14-07.33.17:780][792]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.33.17:782][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002802s)
+[2020.12.14-07.33.17:783][792]LogAIModule: Creating AISystem for world Level0
+[2020.12.14-07.33.17:783][792]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025341CA9200), frame # 42792
+[2020.12.14-07.33.17:783][792]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025363BF1A80), frame # 42792
+[2020.12.14-07.33.17:783][792]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2020.12.14-07.33.17:784][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Levels/Level0.Level0 to /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 (0.003956s)
+[2020.12.14-07.33.17:806][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.12.14-07.33.17:808][792]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-07.33.17:808][792]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-07.33.17:808][792]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-07.33.17:808][792]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-07.33.17:808][792]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-07.33.17:808][792]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-07.33.17:808][792]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-07.33.17:808][792]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-07.33.17:809][792]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-07.33.17:809][792]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-07.33.17:816][792]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-07.33.17:816][792]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-07.33.17:837][792]LogAudioMixer: Display: Using Audio Device LG FULL HD (NVIDIA High Definition Audio)
+[2020.12.14-07.33.17:837][792]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-07.33.17:837][792]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-07.33.17:837][792]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-07.33.17:837][792]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-07.33.17:851][792]LogInit: FAudioDevice initialized.
+[2020.12.14-07.33.17:901][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.33.17:902][792]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.12.14-07.33.17:903][792]LogWorld: Bringing World /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 up for play (max tick rate 0) at 2020.12.14-13.03.17
+[2020.12.14-07.33.17:903][792]LogWorld: Bringing up level for play took: 0.001131
+[2020.12.14-07.33.17:904][792]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.12.14-07.33.17:907][792]LogBlueprintUserMessages: [Enemy_5] Hello
+[2020.12.14-07.33.17:910][792]PIE: Server logged in
+[2020.12.14-07.33.17:912][792]PIE: Play in editor total start time 0.135 seconds.
+[2020.12.14-07.33.17:916][792]LogAudio: Warning: Detected orphaned looping sound 'BackgroundTrack'.
+[2020.12.14-07.33.26:863][850]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.33.26:863][850]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.33.26:864][850]LogSlate: Window 'Shooter2dTest Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.12.14-07.33.26:868][850]LogWorld: UWorld::CleanupWorld for Level0, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.33.26:868][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.33.26:876][850]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.14-07.33.26:880][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.33.26:920][850]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025363BF1A80), frame # 43850
+[2020.12.14-07.33.26:920][850]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025341CA9200), frame # 43850
+[2020.12.14-07.33.26:922][850]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.12.14-07.33.26:946][851]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.12.14-07.40.24:584][329]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.12.14-07.40.24:687][329]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Level0_Auto10B1DAE044406B43B1752849BCC0E7427.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Autosaves/Game/2DSideScrollerBP/Levels/Level0_Auto1.umap'
+[2020.12.14-07.40.24:691][329]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Levels/Level0' took 0.136
+[2020.12.14-07.40.24:691][329]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.136
+[2020.12.14-07.40.49:774][142]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/Enemy-Runner.Enemy-Runner
+[2020.12.14-07.41.30:745][901]BlueprintLog: New page: Compile Enemy-Runner
+[2020.12.14-07.41.30:807][901]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.12.14-07.41.31:304][925]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Enemy-Runner9D72C68B499EE71395832C81F823A361.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Blueprints/Enemy-Runner.uasset'
+[2020.12.14-07.41.31:324][925]AssetCheck: New page: Asset Save: Enemy-Runner
+[2020.12.14-07.41.31:324][925]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/Enemy-Runner.Enemy-Runner
+[2020.12.14-07.41.34:173][139]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.12.14-07.41.34:190][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.14-07.41.34:190][139]PIE: New page: PIE session: Level0 (14-Dec-2020, 6:41:34 pm)
+[2020.12.14-07.41.34:190][139]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.41.34:193][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002838s)
+[2020.12.14-07.41.34:194][139]LogAIModule: Creating AISystem for world Level0
+[2020.12.14-07.41.34:194][139]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000253A0CA7E00), frame # 49139
+[2020.12.14-07.41.34:194][139]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002536851DA80), frame # 49139
+[2020.12.14-07.41.34:194][139]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2020.12.14-07.41.34:194][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Levels/Level0.Level0 to /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 (0.004074s)
+[2020.12.14-07.41.34:218][139]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2020.12.14-07.41.34:221][139]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-07.41.34:221][139]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-07.41.34:221][139]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-07.41.34:221][139]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-07.41.34:221][139]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-07.41.34:221][139]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-07.41.34:221][139]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-07.41.34:221][139]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-07.41.34:221][139]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-07.41.34:221][139]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-07.41.34:228][139]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-07.41.34:228][139]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-07.41.34:258][139]LogAudioMixer: Display: Using Audio Device LG FULL HD (NVIDIA High Definition Audio)
+[2020.12.14-07.41.34:259][139]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-07.41.34:259][139]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-07.41.34:259][139]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-07.41.34:259][139]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-07.41.34:275][139]LogInit: FAudioDevice initialized.
+[2020.12.14-07.41.34:323][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.41.34:323][139]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.12.14-07.41.34:324][139]LogWorld: Bringing World /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 up for play (max tick rate 0) at 2020.12.14-13.11.34
+[2020.12.14-07.41.34:325][139]LogWorld: Bringing up level for play took: 0.001173
+[2020.12.14-07.41.34:325][139]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.12.14-07.41.34:329][139]LogBlueprintUserMessages: [Enemy_5] Hello
+[2020.12.14-07.41.34:334][139]PIE: Server logged in
+[2020.12.14-07.41.34:337][139]PIE: Play in editor total start time 0.15 seconds.
+[2020.12.14-07.41.34:342][139]LogAudio: Warning: Detected orphaned looping sound 'BackgroundTrack'.
+[2020.12.14-07.41.37:128][309]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] Hello
+[2020.12.14-07.41.37:129][309]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] Hello
+[2020.12.14-07.41.38:424][385]LogScript: Warning: Attempted to access Bullet-BP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but Bullet-BP_C_0 is pending kill
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0:PersistentLevel.2DSideScrollerCharacter_C_0
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:0325
+[2020.12.14-07.41.38:424][385]PIE: Error: Blueprint Runtime Error: "Attempted to access Bullet-BP_C_0 via property CallFunc_FinishSpawningActor_ReturnValue, but Bullet-BP_C_0 is pending kill". Blueprint:  2DSideScrollerCharacter Function:  Execute Ubergraph 2DSide Scroller Character Graph:  EventGraph Node:  Print String
+[2020.12.14-07.41.38:424][385]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2020.12.14-07.41.39:331][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.41.39:332][437]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.41.39:332][437]LogSlate: Window 'Shooter2dTest Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.12.14-07.41.39:342][437]LogWorld: UWorld::CleanupWorld for Level0, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.41.39:342][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.41.39:354][437]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.14-07.41.39:358][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.41.39:411][437]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002536851DA80), frame # 49437
+[2020.12.14-07.41.39:411][437]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000253A0CA7E00), frame # 49437
+[2020.12.14-07.41.39:413][437]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.12.14-07.41.39:562][438]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.12.14-07.41.43:455][705]LogSlate: Window 'Message Log' being destroyed
+[2020.12.14-07.41.43:463][705]LogSlate: Window 'Message Log' being destroyed
+[2020.12.14-07.42.21:509][418]BlueprintLog: New page: Compile Enemy-Runner
+[2020.12.14-07.42.21:564][418]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.12.14-07.42.21:996][441]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Enemy-RunnerC8ABEF904D2A5B3539DA53B4F99108CC.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Blueprints/Enemy-Runner.uasset'
+[2020.12.14-07.42.22:012][441]AssetCheck: New page: Asset Save: Enemy-Runner
+[2020.12.14-07.42.22:012][441]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/Enemy-Runner.Enemy-Runner
+[2020.12.14-07.42.24:593][651]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.12.14-07.42.24:609][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.14-07.42.24:609][651]PIE: New page: PIE session: Level0 (14-Dec-2020, 6:42:24 pm)
+[2020.12.14-07.42.24:609][651]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.42.24:613][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003469s)
+[2020.12.14-07.42.24:614][651]LogAIModule: Creating AISystem for world Level0
+[2020.12.14-07.42.24:614][651]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000253A0AA2200), frame # 52651
+[2020.12.14-07.42.24:614][651]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002535D25F4C0), frame # 52651
+[2020.12.14-07.42.24:615][651]LogPlayLevel: PIE: World Init took: (0.002129s)
+[2020.12.14-07.42.24:615][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Levels/Level0.Level0 to /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 (0.005729s)
+[2020.12.14-07.42.24:639][651]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.12.14-07.42.24:640][651]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-07.42.24:640][651]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-07.42.24:640][651]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-07.42.24:641][651]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-07.42.24:641][651]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-07.42.24:641][651]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-07.42.24:641][651]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-07.42.24:641][651]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-07.42.24:641][651]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-07.42.24:641][651]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-07.42.24:647][651]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-07.42.24:647][651]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-07.42.24:672][651]LogAudioMixer: Display: Using Audio Device LG FULL HD (NVIDIA High Definition Audio)
+[2020.12.14-07.42.24:672][651]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-07.42.24:672][651]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-07.42.24:673][651]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-07.42.24:673][651]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-07.42.24:689][651]LogInit: FAudioDevice initialized.
+[2020.12.14-07.42.24:721][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.42.24:721][651]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.12.14-07.42.24:723][651]LogWorld: Bringing World /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 up for play (max tick rate 0) at 2020.12.14-13.12.24
+[2020.12.14-07.42.24:723][651]LogWorld: Bringing up level for play took: 0.001161
+[2020.12.14-07.42.24:723][651]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.12.14-07.42.24:727][651]LogBlueprintUserMessages: [Enemy_5] Hello
+[2020.12.14-07.42.24:731][651]PIE: Server logged in
+[2020.12.14-07.42.24:735][651]PIE: Play in editor total start time 0.129 seconds.
+[2020.12.14-07.42.24:740][651]LogAudio: Warning: Detected orphaned looping sound 'BackgroundTrack'.
+[2020.12.14-07.42.33:604][295]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] Hello
+[2020.12.14-07.42.33:605][295]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] Hello
+[2020.12.14-07.42.36:900][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.42.36:900][541]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.42.36:900][541]LogSlate: Window 'Shooter2dTest Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.12.14-07.42.36:906][541]LogWorld: UWorld::CleanupWorld for Level0, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.42.36:907][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.42.36:912][541]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.14-07.42.36:916][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.42.36:960][541]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002535D25F4C0), frame # 53541
+[2020.12.14-07.42.36:960][541]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000253A0AA2200), frame # 53541
+[2020.12.14-07.42.36:962][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.12.14-07.42.36:996][542]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.12.14-07.42.51:525][818]BlueprintLog: New page: Compile Enemy-Runner
+[2020.12.14-07.42.51:590][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.12.14-07.42.52:345][887]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Enemy-Runner1BF61CFA490D781C7331829AE3491B69.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Blueprints/Enemy-Runner.uasset'
+[2020.12.14-07.42.52:362][887]AssetCheck: New page: Asset Save: Enemy-Runner
+[2020.12.14-07.42.52:362][887]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/Enemy-Runner.Enemy-Runner
+[2020.12.14-07.42.53:120][958]LogSlate: Window 'Enemy-Runner' being destroyed
+[2020.12.14-07.42.53:123][958]LogSlate: Window 'Enemy-Runner' being destroyed
+[2020.12.14-07.42.53:127][958]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.42.53:127][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.42.53:992][ 45]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.12.14-07.42.54:008][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.14-07.42.54:008][ 45]PIE: New page: PIE session: Level0 (14-Dec-2020, 6:42:54 pm)
+[2020.12.14-07.42.54:008][ 45]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.42.54:011][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002853s)
+[2020.12.14-07.42.54:012][ 45]LogAIModule: Creating AISystem for world Level0
+[2020.12.14-07.42.54:012][ 45]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000253A0B49C00), frame # 55045
+[2020.12.14-07.42.54:012][ 45]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025362DE8F40), frame # 55045
+[2020.12.14-07.42.54:012][ 45]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2020.12.14-07.42.54:012][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Levels/Level0.Level0 to /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 (0.004066s)
+[2020.12.14-07.42.54:033][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.12.14-07.42.54:035][ 45]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-07.42.54:035][ 45]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-07.42.54:035][ 45]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-07.42.54:035][ 45]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-07.42.54:035][ 45]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-07.42.54:035][ 45]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-07.42.54:035][ 45]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-07.42.54:035][ 45]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-07.42.54:035][ 45]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-07.42.54:035][ 45]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-07.42.54:040][ 45]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-07.42.54:041][ 45]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-07.42.54:060][ 45]LogAudioMixer: Display: Using Audio Device LG FULL HD (NVIDIA High Definition Audio)
+[2020.12.14-07.42.54:060][ 45]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-07.42.54:060][ 45]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-07.42.54:060][ 45]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-07.42.54:061][ 45]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-07.42.54:076][ 45]LogInit: FAudioDevice initialized.
+[2020.12.14-07.42.54:119][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.42.54:119][ 45]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.12.14-07.42.54:121][ 45]LogWorld: Bringing World /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 up for play (max tick rate 0) at 2020.12.14-13.12.54
+[2020.12.14-07.42.54:121][ 45]LogWorld: Bringing up level for play took: 0.001082
+[2020.12.14-07.42.54:121][ 45]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.12.14-07.42.54:125][ 45]LogBlueprintUserMessages: [Enemy_5] Hello
+[2020.12.14-07.42.54:127][ 45]PIE: Server logged in
+[2020.12.14-07.42.54:128][ 45]PIE: Play in editor total start time 0.124 seconds.
+[2020.12.14-07.42.54:132][ 45]LogAudio: Warning: Detected orphaned looping sound 'BackgroundTrack'.
+[2020.12.14-07.42.56:775][357]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] Hello
+[2020.12.14-07.42.56:775][357]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] Hello
+[2020.12.14-07.43.09:519][827]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.43.09:519][827]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.43.09:520][827]LogSlate: Window 'Shooter2dTest Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.12.14-07.43.09:523][827]LogWorld: UWorld::CleanupWorld for Level0, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.43.09:523][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.43.09:533][827]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.14-07.43.09:537][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.43.09:577][827]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025362DE8F40), frame # 56827
+[2020.12.14-07.43.09:577][827]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000253A0B49C00), frame # 56827
+[2020.12.14-07.43.09:580][827]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.12.14-07.43.09:608][828]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.12.14-07.43.12:787][196]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.12.14-07.43.12:802][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.14-07.43.12:802][196]PIE: New page: PIE session: Level0 (14-Dec-2020, 6:43:12 pm)
+[2020.12.14-07.43.12:802][196]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.43.12:805][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002715s)
+[2020.12.14-07.43.12:806][196]LogAIModule: Creating AISystem for world Level0
+[2020.12.14-07.43.12:806][196]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025388017800), frame # 57196
+[2020.12.14-07.43.12:806][196]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002536711A700), frame # 57196
+[2020.12.14-07.43.12:806][196]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2020.12.14-07.43.12:806][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Levels/Level0.Level0 to /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 (0.003996s)
+[2020.12.14-07.43.12:826][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.12.14-07.43.12:827][196]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-07.43.12:827][196]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-07.43.12:827][196]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-07.43.12:827][196]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-07.43.12:827][196]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-07.43.12:827][196]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-07.43.12:827][196]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-07.43.12:827][196]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-07.43.12:828][196]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-07.43.12:828][196]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-07.43.12:836][196]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-07.43.12:836][196]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-07.43.12:857][196]LogAudioMixer: Display: Using Audio Device LG FULL HD (NVIDIA High Definition Audio)
+[2020.12.14-07.43.12:857][196]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-07.43.12:857][196]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-07.43.12:857][196]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-07.43.12:857][196]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-07.43.12:872][196]LogInit: FAudioDevice initialized.
+[2020.12.14-07.43.12:920][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.43.12:920][196]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.12.14-07.43.12:921][196]LogWorld: Bringing World /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 up for play (max tick rate 0) at 2020.12.14-13.13.12
+[2020.12.14-07.43.12:921][196]LogWorld: Bringing up level for play took: 0.001130
+[2020.12.14-07.43.12:922][196]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.12.14-07.43.12:925][196]LogBlueprintUserMessages: [Enemy_5] Hello
+[2020.12.14-07.43.12:926][196]PIE: Server logged in
+[2020.12.14-07.43.12:928][196]PIE: Play in editor total start time 0.129 seconds.
+[2020.12.14-07.43.12:932][196]LogAudio: Warning: Detected orphaned looping sound 'BackgroundTrack'.
+[2020.12.14-07.43.29:407][ 76]Cmd: CAMERA SNAP
+[2020.12.14-07.43.29:407][ 76]Snapped camera to the first selected object.
+[2020.12.14-07.43.39:259][ 89]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.43.39:259][ 89]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.43.39:259][ 89]LogSlate: Window 'Shooter2dTest Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.12.14-07.43.39:260][ 89]LogWorld: UWorld::CleanupWorld for Level0, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.43.39:260][ 89]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.43.39:269][ 89]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.14-07.43.39:272][ 89]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.43.39:310][ 89]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002536711A700), frame # 60089
+[2020.12.14-07.43.39:310][ 89]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025388017800), frame # 60089
+[2020.12.14-07.43.39:312][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.12.14-07.43.39:343][ 90]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.12.14-07.43.40:183][188]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.12.14-07.43.40:199][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.14-07.43.40:199][188]PIE: New page: PIE session: Level0 (14-Dec-2020, 6:43:40 pm)
+[2020.12.14-07.43.40:199][188]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.43.40:202][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002693s)
+[2020.12.14-07.43.40:203][188]LogAIModule: Creating AISystem for world Level0
+[2020.12.14-07.43.40:203][188]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002535B9BC600), frame # 60188
+[2020.12.14-07.43.40:203][188]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002536590B600), frame # 60188
+[2020.12.14-07.43.40:203][188]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2020.12.14-07.43.40:203][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Levels/Level0.Level0 to /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 (0.003848s)
+[2020.12.14-07.43.40:222][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.12.14-07.43.40:223][188]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-07.43.40:223][188]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-07.43.40:223][188]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-07.43.40:223][188]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-07.43.40:223][188]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-07.43.40:223][188]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-07.43.40:223][188]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-07.43.40:223][188]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-07.43.40:223][188]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-07.43.40:223][188]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-07.43.40:229][188]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-07.43.40:229][188]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-07.43.40:252][188]LogAudioMixer: Display: Using Audio Device LG FULL HD (NVIDIA High Definition Audio)
+[2020.12.14-07.43.40:252][188]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-07.43.40:252][188]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-07.43.40:252][188]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-07.43.40:253][188]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-07.43.40:263][188]LogInit: FAudioDevice initialized.
+[2020.12.14-07.43.40:318][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.43.40:318][188]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.12.14-07.43.40:320][188]LogWorld: Bringing World /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 up for play (max tick rate 0) at 2020.12.14-13.13.40
+[2020.12.14-07.43.40:320][188]LogWorld: Bringing up level for play took: 0.001125
+[2020.12.14-07.43.40:320][188]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.12.14-07.43.40:324][188]LogBlueprintUserMessages: [Enemy_5] Hello
+[2020.12.14-07.43.40:326][188]PIE: Server logged in
+[2020.12.14-07.43.40:327][188]PIE: Play in editor total start time 0.131 seconds.
+[2020.12.14-07.43.40:332][188]LogAudio: Warning: Detected orphaned looping sound 'BackgroundTrack'.
+[2020.12.14-07.43.46:069][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.43.46:069][859]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.43.46:069][859]LogSlate: Window 'Shooter2dTest Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.12.14-07.43.46:076][859]LogWorld: UWorld::CleanupWorld for Level0, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.43.46:076][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.43.46:086][859]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.14-07.43.46:089][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.43.46:127][859]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002536590B600), frame # 60859
+[2020.12.14-07.43.46:127][859]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002535B9BC600), frame # 60859
+[2020.12.14-07.43.46:133][859]LogUObjectHash: Compacting FUObjectHashTables data took   5.50ms
+[2020.12.14-07.43.46:161][860]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.12.14-07.43.47:853][ 49]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/Enemy-Runner.Enemy-Runner
+[2020.12.14-07.43.49:467][126]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.12.14-07.43.49:483][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.14-07.43.49:483][126]PIE: New page: PIE session: Level0 (14-Dec-2020, 6:43:49 pm)
+[2020.12.14-07.43.49:483][126]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.43.49:486][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003159s)
+[2020.12.14-07.43.49:487][126]LogAIModule: Creating AISystem for world Level0
+[2020.12.14-07.43.49:487][126]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002536E211A00), frame # 61126
+[2020.12.14-07.43.49:487][126]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002538E0FA340), frame # 61126
+[2020.12.14-07.43.49:488][126]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2020.12.14-07.43.49:488][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Levels/Level0.Level0 to /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 (0.004416s)
+[2020.12.14-07.43.49:510][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.12.14-07.43.49:512][126]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-07.43.49:512][126]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-07.43.49:512][126]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-07.43.49:512][126]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-07.43.49:512][126]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-07.43.49:512][126]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-07.43.49:512][126]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-07.43.49:512][126]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-07.43.49:513][126]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-07.43.49:513][126]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-07.43.49:518][126]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-07.43.49:518][126]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-07.43.49:538][126]LogAudioMixer: Display: Using Audio Device LG FULL HD (NVIDIA High Definition Audio)
+[2020.12.14-07.43.49:539][126]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-07.43.49:539][126]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-07.43.49:539][126]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-07.43.49:539][126]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-07.43.49:553][126]LogInit: FAudioDevice initialized.
+[2020.12.14-07.43.49:602][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.43.49:602][126]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.12.14-07.43.49:603][126]LogWorld: Bringing World /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 up for play (max tick rate 0) at 2020.12.14-13.13.49
+[2020.12.14-07.43.49:603][126]LogWorld: Bringing up level for play took: 0.001069
+[2020.12.14-07.43.49:604][126]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.12.14-07.43.49:607][126]LogBlueprintUserMessages: [Enemy_5] Hello
+[2020.12.14-07.43.49:611][126]PIE: Server logged in
+[2020.12.14-07.43.49:614][126]PIE: Play in editor total start time 0.134 seconds.
+[2020.12.14-07.43.49:618][126]LogAudio: Warning: Detected orphaned looping sound 'BackgroundTrack'.
+[2020.12.14-07.44.04:098][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.44.04:098][896]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.44.04:098][896]LogSlate: Window 'Shooter2dTest Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.12.14-07.44.04:101][896]LogWorld: UWorld::CleanupWorld for Level0, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.44.04:102][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.44.04:113][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.14-07.44.04:117][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.44.04:159][896]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002538E0FA340), frame # 61896
+[2020.12.14-07.44.04:159][896]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002536E211A00), frame # 61896
+[2020.12.14-07.44.04:161][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.12.14-07.44.04:196][897]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.12.14-07.44.08:134][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.14-07.44.08:134][189]PIE: New page: SIE session: Level0 (14-Dec-2020, 6:44:08 pm)
+[2020.12.14-07.44.08:134][189]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.44.08:137][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003115s)
+[2020.12.14-07.44.08:138][189]LogAIModule: Creating AISystem for world Level0
+[2020.12.14-07.44.08:138][189]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002539BBCFE00), frame # 62189
+[2020.12.14-07.44.08:138][189]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002538E09E480), frame # 62189
+[2020.12.14-07.44.08:138][189]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2020.12.14-07.44.08:138][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Levels/Level0.Level0 to /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 (0.004315s)
+[2020.12.14-07.44.08:159][189]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.12.14-07.44.08:161][189]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-07.44.08:161][189]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-07.44.08:161][189]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-07.44.08:161][189]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-07.44.08:161][189]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-07.44.08:161][189]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-07.44.08:161][189]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-07.44.08:161][189]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-07.44.08:162][189]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-07.44.08:162][189]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-07.44.08:168][189]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-07.44.08:168][189]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-07.44.08:187][189]LogAudioMixer: Display: Using Audio Device LG FULL HD (NVIDIA High Definition Audio)
+[2020.12.14-07.44.08:187][189]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-07.44.08:187][189]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-07.44.08:188][189]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-07.44.08:188][189]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-07.44.08:201][189]LogInit: FAudioDevice initialized.
+[2020.12.14-07.44.08:214][189]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.12.14-07.44.08:216][189]LogWorld: Bringing World /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 up for play (max tick rate 0) at 2020.12.14-13.14.08
+[2020.12.14-07.44.08:216][189]LogWorld: Bringing up level for play took: 0.001117
+[2020.12.14-07.44.08:216][189]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.12.14-07.44.08:219][189]LogBlueprintUserMessages: [Enemy_5] Hello
+[2020.12.14-07.44.08:219][189]PIE: Server logged in
+[2020.12.14-07.44.08:220][189]PIE: Play in editor total start time 0.089 seconds.
+[2020.12.14-07.44.08:221][189]LogAudio: Warning: Detected orphaned looping sound 'BackgroundTrack'.
+[2020.12.14-07.44.16:497][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.44.16:497][530]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.44.16:498][530]LogWorld: UWorld::CleanupWorld for Level0, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.44.16:498][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.44.16:506][530]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.14-07.44.16:510][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.44.16:530][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.44.16:548][530]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002538E09E480), frame # 62530
+[2020.12.14-07.44.16:548][530]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002539BBCFE00), frame # 62530
+[2020.12.14-07.44.16:550][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.12.14-07.44.16:583][531]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.12.14-07.44.22:242][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.14-07.44.22:242][962]PIE: New page: PIE session: Level0 (14-Dec-2020, 6:44:22 pm)
+[2020.12.14-07.44.22:242][962]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.44.22:245][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002982s)
+[2020.12.14-07.44.22:246][962]LogAIModule: Creating AISystem for world Level0
+[2020.12.14-07.44.22:246][962]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000253A1601C00), frame # 62962
+[2020.12.14-07.44.22:246][962]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002538E18E0C0), frame # 62962
+[2020.12.14-07.44.22:247][962]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2020.12.14-07.44.22:247][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Levels/Level0.Level0 to /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 (0.004254s)
+[2020.12.14-07.44.22:268][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.12.14-07.44.22:268][962]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-07.44.22:268][962]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-07.44.22:268][962]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-07.44.22:268][962]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-07.44.22:268][962]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-07.44.22:268][962]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-07.44.22:268][962]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-07.44.22:268][962]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-07.44.22:269][962]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-07.44.22:269][962]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-07.44.22:274][962]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-07.44.22:274][962]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-07.44.22:292][962]LogAudioMixer: Display: Using Audio Device LG FULL HD (NVIDIA High Definition Audio)
+[2020.12.14-07.44.22:292][962]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-07.44.22:292][962]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-07.44.22:292][962]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-07.44.22:293][962]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-07.44.22:306][962]LogInit: FAudioDevice initialized.
+[2020.12.14-07.44.22:351][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.44.22:351][962]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.12.14-07.44.22:352][962]LogWorld: Bringing World /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 up for play (max tick rate 0) at 2020.12.14-13.14.22
+[2020.12.14-07.44.22:353][962]LogWorld: Bringing up level for play took: 0.001138
+[2020.12.14-07.44.22:353][962]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.12.14-07.44.22:357][962]LogBlueprintUserMessages: [Enemy_5] Hello
+[2020.12.14-07.44.22:361][962]PIE: Server logged in
+[2020.12.14-07.44.22:365][962]PIE: Play in editor total start time 0.126 seconds.
+[2020.12.14-07.44.22:369][962]LogAudio: Warning: Detected orphaned looping sound 'BackgroundTrack'.
+[2020.12.14-07.44.24:450][ 97]LogSlate: Window 'Shooter2dTest Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.12.14-07.44.24:459][ 97]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.44.24:484][ 97]LogWorld: UWorld::CleanupWorld for Level0, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.44.24:485][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.44.24:492][ 97]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.14-07.44.24:495][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.44.24:535][ 97]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002538E18E0C0), frame # 63097
+[2020.12.14-07.44.24:535][ 97]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000253A1601C00), frame # 63097
+[2020.12.14-07.44.24:536][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.12.14-07.44.24:577][ 98]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.12.14-07.44.37:348][207]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.12.14-07.44.37:364][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.14-07.44.37:364][207]PIE: New page: PIE session: Level0 (14-Dec-2020, 6:44:37 pm)
+[2020.12.14-07.44.37:364][207]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.44.37:367][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002752s)
+[2020.12.14-07.44.37:368][207]LogAIModule: Creating AISystem for world Level0
+[2020.12.14-07.44.37:368][207]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002539AC74E00), frame # 64207
+[2020.12.14-07.44.37:368][207]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025368220400), frame # 64207
+[2020.12.14-07.44.37:368][207]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2020.12.14-07.44.37:368][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Levels/Level0.Level0 to /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 (0.003881s)
+[2020.12.14-07.44.37:390][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.12.14-07.44.37:392][207]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.14-07.44.37:392][207]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.14-07.44.37:393][207]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.14-07.44.37:393][207]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.14-07.44.37:393][207]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.14-07.44.37:393][207]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.14-07.44.37:393][207]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.14-07.44.37:393][207]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.14-07.44.37:393][207]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.14-07.44.37:393][207]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.14-07.44.37:398][207]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.14-07.44.37:398][207]LogAudioMixer: Display: 1: FrontRight
+[2020.12.14-07.44.37:417][207]LogAudioMixer: Display: Using Audio Device LG FULL HD (NVIDIA High Definition Audio)
+[2020.12.14-07.44.37:417][207]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.14-07.44.37:417][207]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.14-07.44.37:417][207]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.14-07.44.37:418][207]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.14-07.44.37:431][207]LogInit: FAudioDevice initialized.
+[2020.12.14-07.44.37:467][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.44.37:467][207]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2020.12.14-07.44.37:468][207]LogWorld: Bringing World /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0.Level0 up for play (max tick rate 0) at 2020.12.14-13.14.37
+[2020.12.14-07.44.37:468][207]LogWorld: Bringing up level for play took: 0.001078
+[2020.12.14-07.44.37:469][207]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.12.14-07.44.37:472][207]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_Event', from offset 0
+[2020.12.14-07.44.37:472][207]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/2DSideScrollerBP/Blueprints/Enemy-Runner.Enemy-Runner_C:ReceiveBeginPlay
+
+[2020.12.14-07.44.52:821][207]LogBlueprintUserMessages: [Enemy_5] Hello
+[2020.12.14-07.44.52:823][207]PIE: Server logged in
+[2020.12.14-07.44.52:826][207]PIE: Play in editor total start time 15.465 seconds.
+[2020.12.14-07.44.52:831][207]LogAudio: Warning: Detected orphaned looping sound 'BackgroundTrack'.
+[2020.12.14-07.44.56:389][502]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] Hello
+[2020.12.14-07.44.56:390][502]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_Event', from offset 0
+[2020.12.14-07.44.56:390][502]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/2DSideScrollerBP/Blueprints/Enemy-Runner.Enemy-Runner_C:ReceiveBeginPlay
+
+[2020.12.14-07.45.08:139][502]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/EnemySpawn.EnemySpawn
+[2020.12.14-07.45.53:579][502]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] Hello
+[2020.12.14-07.45.53:635][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.14-07.45.53:635][502]LogWorld: BeginTearingDown for /Game/2DSideScrollerBP/Levels/UEDPIE_0_Level0
+[2020.12.14-07.45.53:635][502]LogSlate: Window 'Shooter2dTest Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.12.14-07.45.53:637][502]LogWorld: UWorld::CleanupWorld for Level0, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.45.53:637][502]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.45.53:647][502]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.14-07.45.53:650][502]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.45.53:694][502]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025368220400), frame # 64502
+[2020.12.14-07.45.53:694][502]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002539AC74E00), frame # 64502
+[2020.12.14-07.45.53:696][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.12.14-07.45.53:727][503]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.12.14-07.46.05:304][417]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Enemy-Runner981BF1064A0E1A1DDEC6298D7ABAB777.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Blueprints/Enemy-Runner.uasset'
+[2020.12.14-07.46.05:321][417]AssetCheck: New page: Asset Save: Enemy-Runner
+[2020.12.14-07.46.05:321][417]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/Enemy-Runner.Enemy-Runner
+[2020.12.14-07.47.28:683][ 18]LogSlate: Window 'EnemySpawn' being destroyed
+[2020.12.14-07.47.28:690][ 18]LogSlate: Window 'EnemySpawn' being destroyed
+[2020.12.14-07.47.28:695][ 18]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.47.28:695][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-07.47.28:774][ 18]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.12.14-07.47.28:774][ 18]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-07.47.28:774][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-08.43.07:436][651]LogEditorViewport: Clicking on Actor (LMB): EnemySpawn_C (EnemySpawn)
+[2020.12.14-08.43.08:252][743]Cmd: DELETE
+[2020.12.14-08.43.08:253][743]Cmd: ACTOR DELETE
+[2020.12.14-08.43.08:256][743]LogEditorActor: Deleted Actor: EnemySpawn_C
+[2020.12.14-08.43.08:294][743]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2020.12.14-08.43.08:301][743]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2020.12.14-08.43.39:655][415]LogEditorViewport: Clicking Background
+[2020.12.14-08.43.40:322][494]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_C (BaseFloor2)
+[2020.12.14-08.43.41:173][593]LogEditorViewport: Clicking Background
+[2020.12.14-08.43.41:865][675]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2020.12.14-08.43.42:443][740]Cmd: DELETE
+[2020.12.14-08.43.42:443][740]Cmd: ACTOR DELETE
+[2020.12.14-08.43.42:445][740]LogEditorActor: Deleted Actor: TriggerBox
+[2020.12.14-08.43.42:466][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.12.14-08.43.42:473][740]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2020.12.14-08.44.15:479][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.12.14-08.44.15:536][952]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Level0_Auto2396B97EE466353501FB12A91A5BEE70D.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Autosaves/Game/2DSideScrollerBP/Levels/Level0_Auto2.umap'
+[2020.12.14-08.44.15:539][952]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Levels/Level0' took 0.081
+[2020.12.14-08.44.15:539][952]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.081
+[2020.12.14-08.44.38:673][110]LogEditorViewport: Clicking Background
+[2020.12.14-08.44.39:506][209]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2020.12.14-08.44.40:114][278]LogEditorViewport: Clicking Background
+[2020.12.14-08.44.41:473][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.12.14-08.44.41:525][435]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Level06B9B031D4E4A212511D97296E2DFE3EA.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Levels/Level0.umap'
+[2020.12.14-08.44.41:568][435]AssetCheck: New page: Asset Save: Level0
+[2020.12.14-08.44.41:568][435]LogContentValidation: Display: Validating World /Game/2DSideScrollerBP/Levels/Level0.Level0
+[2020.12.14-08.44.42:797][582]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2020.12.14-08.44.45:996][960]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2020.12.14-08.44.46:078][968]LogEditorViewport: Clicking on Component (LMB): SceneComponent (SceneComp)
+[2020.12.14-08.44.48:498][254]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_C (BaseFloor2)
+[2020.12.14-08.44.49:314][349]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
+[2020.12.14-08.44.51:433][595]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/EnemySpawn.EnemySpawn
+[2020.12.14-08.47.37:434][ 56]LogEditorViewport: Clicking Background
+[2020.12.14-08.47.38:215][141]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.12.14-08.47.38:265][141]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Level001A2FD384680EF2E56711EA38CDDDD50.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Levels/Level0.umap'
+[2020.12.14-08.47.38:307][141]AssetCheck: New page: Asset Save: Level0
+[2020.12.14-08.47.38:307][141]LogContentValidation: Display: Validating World /Game/2DSideScrollerBP/Levels/Level0.Level0
+[2020.12.14-08.47.40:808][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.12.14-08.47.50:021][376]LogSlate: Window 'EnemySpawn' being destroyed
+[2020.12.14-08.47.50:029][376]LogSlate: Window 'EnemySpawn' being destroyed
+[2020.12.14-08.47.50:029][376]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-08.47.50:029][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-08.48.08:793][654]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2020.12.14-08.48.08:831][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.12.14-08.48.08:861][654]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/EnemySpawner.EnemySpawner
+[2020.12.14-08.48.12:356][919]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/EnemySpawner57B2084246445CA9B5B9CD8C52BBBE6B.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Blueprints/EnemySpawner.uasset'
+[2020.12.14-08.48.12:374][919]AssetCheck: New page: Asset Save: EnemySpawner
+[2020.12.14-08.48.12:374][919]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/EnemySpawner.EnemySpawner
+[2020.12.14-08.48.30:144][565]BlueprintLog: New page: Compile EnemySpawner
+[2020.12.14-08.48.30:205][565]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.12.14-08.48.30:755][600]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/EnemySpawner86BEA85A4197F7F9C9A05AABCA778BBF.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Blueprints/EnemySpawner.uasset'
+[2020.12.14-08.48.30:771][600]AssetCheck: New page: Asset Save: EnemySpawner
+[2020.12.14-08.48.30:771][600]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/EnemySpawner.EnemySpawner
+[2020.12.14-08.48.33:896][888]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/EnemySpawn.EnemySpawn
+[2020.12.14-08.48.44:951][732]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/EnemySpawnerF4CECD56494E12AF9BD26589E2D4EB61.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Blueprints/EnemySpawner.uasset'
+[2020.12.14-08.48.44:969][732]AssetCheck: New page: Asset Save: EnemySpawner
+[2020.12.14-08.48.44:970][732]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/EnemySpawner.EnemySpawner
+[2020.12.14-08.51.02:495][ 43]BlueprintLog: New page: Compile EnemySpawner
+[2020.12.14-08.51.02:497][ 43]LogBlueprint: Warning: [Compiler EnemySpawner] TargetPoint.ArrowComponent is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get ArrowComponent
+[2020.12.14-08.51.02:567][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.12.14-08.51.03:004][ 71]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/EnemySpawner5F78AD51491C97D8B46E899FB7310DCF.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Blueprints/EnemySpawner.uasset'
+[2020.12.14-08.51.03:021][ 71]AssetCheck: New page: Asset Save: EnemySpawner
+[2020.12.14-08.51.03:021][ 71]LogContentValidation: Display: Validating Blueprint /Game/2DSideScrollerBP/Blueprints/EnemySpawner.EnemySpawner
+[2020.12.14-08.51.46:571][487]LogSlate: Window 'EnemySpawn' being destroyed
+[2020.12.14-08.51.46:577][487]LogSlate: Window 'EnemySpawn' being destroyed
+[2020.12.14-08.51.46:590][487]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-08.51.46:590][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-08.51.46:663][487]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.12.14-08.51.46:663][487]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-08.51.46:663][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-08.51.48:812][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.12.14-08.51.50:188][725]LogSlate: Window 'Delete Assets' being destroyed
+[2020.12.14-08.51.51:458][725]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/2DSideScrollerBP/Blueprints/EnemySpawner.EnemySpawner
+[2020.12.14-08.51.52:523][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.12.14-08.51.52:721][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.12.14-08.51.52:741][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.12.14-08.51.52:759][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2020.12.14-08.51.54:145][875]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2020.12.14-08.51.54:193][875]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Level0111AA3B94BBDD5A0F3381CBE27A5D643.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Levels/Level0.umap'
+[2020.12.14-08.51.54:228][875]AssetCheck: New page: Asset Save: Level0
+[2020.12.14-08.51.54:228][875]LogContentValidation: Display: Validating World /Game/2DSideScrollerBP/Levels/Level0.Level0
+[2020.12.14-08.51.57:069][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.12.14-09.25.17:610][992]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/2DSideScrollerBP/Levels/Level0.Level0:PersistentLevel.Level0
+[2020.12.14-09.25.23:545][557]LogSlate: Window 'Level0' being destroyed
+[2020.12.14-09.25.23:552][557]LogSlate: Window 'Level0' being destroyed
+[2020.12.14-09.25.23:552][557]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.12.14-09.25.23:552][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.14-09.25.27:203][986]LogEditorViewport: Clicking on Actor (LMB): BaseFloor_C (BaseFloor2)
+[2020.12.14-09.25.48:895][993]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.12.14-09.25.48:953][993]LogSavePackage: Moving 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Saved/Level058CD32A54318541CB711B08B85598039.tmp' to 'C:/Users/Home/Documents/Unreal Projects/Shooter2dTest/Content/2DSideScrollerBP/Levels/Level0.umap'
+[2020.12.14-09.25.48:989][993]AssetCheck: New page: Asset Save: Level0
+[2020.12.14-09.25.48:989][993]LogContentValidation: Display: Validating World /Game/2DSideScrollerBP/Levels/Level0.Level0
+[2020.12.14-09.25.54:491][543]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/2DSideScrollerBP/Levels/Level0.Level0:PersistentLevel.Level0
+[2020.12.14-09.26.14:774][788]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.12.14-09.26.16:773][788]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.999 s
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: === Handled ensure: ===
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: 
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: Ensure condition failed: PlacementEditMode [File:D:/Build/++UE4/Sync/Engine/Source/Editor/PlacementMode/Private/SPlacementModeTools.cpp] [Line: 606]
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: PlacementEditMode was null, but SPlacementModeTools is still accepting KeyDown events
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: Stack: 
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ffa8acc4609 UE4Editor-PlacementMode.dll!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ffa8ac9ff85 UE4Editor-PlacementMode.dll!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ffaad2d061b UE4Editor-Slate.dll!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ffaad33d561 UE4Editor-Slate.dll!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ffaad330f16 UE4Editor-Slate.dll!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ffaf5fa7c25 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ffaf5f95c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ffaf5faa619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ffaf5f917d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ffb1e535c1d USER32.dll!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ffb1e535612 USER32.dll!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ffaf5fabb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ff7778b68c4 UE4Editor.exe!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ff7778cba7c UE4Editor.exe!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ff7778cbb5a UE4Editor.exe!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ff7778de31d UE4Editor.exe!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ff7778e145a UE4Editor.exe!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ffb1d7d7c24 KERNEL32.DLL!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: [Callstack] 0x00007ffb1ed6d4d1 ntdll.dll!UnknownFunction []
+[2020.12.14-09.26.16:773][788]LogOutputDevice: Error: 
